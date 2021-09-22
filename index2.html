@@ -10,18 +10,21 @@
 <body>
     <center>
     <h1>Math Game</h1>
+    <span>
     <h2>Question Turn</h2>
     <label id="p1n"></label>
     <h2>Answer Turn</h2>
     <label id="p2n"></label>
-    <h2></h2>
-    <label id="p1s"></label>
-    <h2></h2>
-    <label id="p2s"></label>
-    <div>
+    <h2 id="p1s"></h2>
+    <h3 id="S1">0</h3>
+    <h2 id="p2s"></h2>
+    <h3 id="S2">0</h3>
+    </span>
+    <div id="Answer" style="display:none">
         <h5 id="q"></h5>
-    <input placeholder="Answer here">
-    <button>Check</button>
+    <input id="a" placeholder="Answer here">
+    <br>
+    <button onclick="qa()">Check</button>
     </div>
     <div>
     <input id="n1" placeholder="Number1">
@@ -29,6 +32,6 @@
     <button onclick="send()">Send</button>
     </div>
    </center>
-    <script src="main.js"></script> 
+   <script src="main2.js"></script> 
 </body>
 </html>

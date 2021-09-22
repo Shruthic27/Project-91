@@ -2,7 +2,7 @@ body
 {
 	background: linear-gradient(Red,Orange, Yellow,deeppink);
     
-    color: white;
+    color:black;
 }
 
 	.login_div1
@@ -11,6 +11,7 @@ body
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
+		color: white;
 	}
     .login_div2
 	{
@@ -18,6 +19,7 @@ body
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
+		color: white;
 	}
     #p1, #p2{
         color: black;
